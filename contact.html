@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ABC College</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#003366;
+            color:white;
+            padding:20px;
+        }
+
+        nav{
+            width:90%;
+            margin:auto;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        ul{
+            list-style:none;
+            display:flex;
+        }
+
+        ul li{
+            margin-left:25px;
+        }
+
+        ul li a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        ul li a:hover{
+            color:gold;
+        }
+
+        .banner{
+            background:#00509d;
+            color:white;
+            text-align:center;
+            padding:60px;
+        }
+
+        .container{
+            width:85%;
+            margin:40px auto;
+            display:flex;
+            gap:40px;
+            flex-wrap:wrap;
+        }
+
+        .contact-info,
+        .contact-form{
+            flex:1;
+            min-width:300px;
+            background:white;
+            padding:30px;
+            border-radius:8px;
+            box-shadow:0 0 10px rgba(0,0,0,.1);
+        }
+
+        h2{
+            margin-bottom:20px;
+            color:#003366;
+        }
+
+        p{
+            margin:12px 0;
+        }
+
+        input,
+        textarea{
+            width:100%;
+            padding:12px;
+            margin-bottom:15px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            font-size:16px;
+        }
+
+        textarea{
+            resize:none;
+        }
+
+        button{
+            background:#003366;
+            color:white;
+            padding:12px 25px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#00509d;
+        }
+
+        footer{
+            margin-top:40px;
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">
+            ABC College
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="banner">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+</section>
+
+<div class="container">
+
+    <div class="contact-info">
+
+        <h2>College Information</h2>
+
+        <p><strong>Address:</strong><br>
+        ABC College, MG Road,<br>
+        Bengaluru, Karnataka</p>
+
+        <p><strong>Phone:</strong> +91 9876543210</p>
+
+        <p><strong>Email:</strong> info@abccollege.edu</p>
+
+        <p><strong>Office Hours:</strong><br>
+        Monday - Saturday<br>
+        9:00 AM - 5:00 PM</p>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2>Send Us a Message</h2>
+
+        <form>
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="6" placeholder="Your Message"></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 ABC College. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
